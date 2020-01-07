@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  createNamespace:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-01-07T10:03:05.537247+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 488f613281690bce4858bb3f47619fd408a4ccd29be68b58d612ba29ac43eddd
+    name: createNamespace
+    urls:
+    - https://bitpodio.github.io/helm/createNamespace-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-01-07T10:03:05.523717+05:30"
