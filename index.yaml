@@ -3,9 +3,9 @@ entries:
   backend:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-07T12:03:11.106643+05:30"
+    created: "2020-01-07T12:17:08.800547+05:30"
     description: A Helm chart for Kubernetes
-    digest: af4d7cca33caac11fa8c3db8c54028425de5ffcf8c29449a010056b6222dd84c
+    digest: 14440ceb61b7d9bc04a3f6f40a4b0725d2c74155328c71a62999b2a80d71e0bf
     name: backend
     urls:
     - https://github.com/bitpodio/helm/backend-0.1.0.tgz
@@ -13,11 +13,11 @@ entries:
   createNamespace:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-07T12:03:11.106957+05:30"
+    created: "2020-01-07T12:17:08.801855+05:30"
     description: A Helm chart for Kubernetes
     digest: 488f613281690bce4858bb3f47619fd408a4ccd29be68b58d612ba29ac43eddd
     name: createNamespace
     urls:
     - https://github.com/bitpodio/helm/createNamespace-0.1.0.tgz
     version: 0.1.0
-generated: "2020-01-07T12:03:11.105298+05:30"
+generated: "2020-01-07T12:17:08.799185+05:30"
