@@ -3,21 +3,67 @@ entries:
   backend:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-07T15:37:21.303719+05:30"
+    created: "2020-01-27T16:43:02.665569+05:30"
     description: A Helm chart for Kubernetes
-    digest: db8c4aea9f530e9b3369ee8702788f8b28803ccc6f0d3daf67d15a4eec14c67c
+    digest: a4d4507fb1381323a4faf507947af560d2f9c5f0493a3783e90e9f1b76fafa8b
     name: backend
     urls:
     - https://bitpodio.github.io/helm/backend-0.1.0.tgz
     version: 0.1.0
-  createNamespace:
+  configServer:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-07T15:37:21.351212+05:30"
+    created: "2020-01-27T16:43:02.666921+05:30"
     description: A Helm chart for Kubernetes
-    digest: 488f613281690bce4858bb3f47619fd408a4ccd29be68b58d612ba29ac43eddd
-    name: createNamespace
+    digest: 14773a05481b9794a9d8c86bd4d61e6a110aaf31171b5444e7a37b0ad3465a12
+    name: configServer
     urls:
-    - https://bitpodio.github.io/helm/createNamespace-0.1.0.tgz
+    - https://bitpodio.github.io/helm/configServer-0.1.0.tgz
     version: 0.1.0
-generated: "2020-01-07T15:37:21.29744+05:30"
+  mongodb:
+  - appVersion: 4.0.6
+    created: "2020-01-27T16:43:02.702098+05:30"
+    description: NoSQL document-oriented database that stores JSON-like documents
+      with dynamic schemas, simplifying the integration of data in content-driven
+      applications.
+    digest: 178d0b486dcbc89d5a9a5d8716b61f433077fc560701a120e8f13f1017a39ff3
+    engine: gotpl
+    home: https://mongodb.org
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    - cluster
+    - replicaset
+    - replication
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    urls:
+    - https://bitpodio.github.io/helm/mongodb-5.4.0.tgz
+    version: 5.4.0
+  nginxService:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-01-27T16:43:02.702686+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 2e260b3dfe9aa6cc0c2fba662fec9201d224c7ea5ddbfaf3b98952aedbb72159
+    name: nginxService
+    urls:
+    - https://bitpodio.github.io/helm/nginxService-0.1.0.tgz
+    version: 0.1.0
+  redis:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-01-27T16:43:02.703217+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 0dfcb177583ce87c8bd40f2b3472504aa12813963e5d2dec1f5043c42edfbee1
+    name: redis
+    urls:
+    - https://bitpodio.github.io/helm/redis-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-01-27T16:43:02.638076+05:30"
