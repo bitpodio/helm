@@ -3,17 +3,27 @@ entries:
   backend:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-27T17:44:16.916591+05:30"
+    created: "2020-01-29T17:49:21.850649+05:30"
     description: A Helm chart for Kubernetes
     digest: a4d4507fb1381323a4faf507947af560d2f9c5f0493a3783e90e9f1b76fafa8b
     name: backend
     urls:
     - https://bitpodio.github.io/helm/backend-0.1.0.tgz
     version: 0.1.0
+  bitpod:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-01-29T17:49:21.869137+05:30"
+    description: A Helm chart for Kubernetes
+    digest: d54c7eeb3c0a16ade95b58bc50e2cbda9bf7a1cb0323477e7f06b59945b91f2e
+    name: bitpod
+    urls:
+    - https://bitpodio.github.io/helm/bitpod-0.1.0.tgz
+    version: 0.1.0
   configServer:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-27T17:44:16.917804+05:30"
+    created: "2020-01-29T17:49:21.932363+05:30"
     description: A Helm chart for Kubernetes
     digest: 14773a05481b9794a9d8c86bd4d61e6a110aaf31171b5444e7a37b0ad3465a12
     name: configServer
@@ -22,7 +32,7 @@ entries:
     version: 0.1.0
   mongodb:
   - appVersion: 4.0.6
-    created: "2020-01-27T17:44:16.919773+05:30"
+    created: "2020-01-29T17:49:21.939309+05:30"
     description: NoSQL document-oriented database that stores JSON-like documents
       with dynamic schemas, simplifying the integration of data in content-driven
       applications.
@@ -49,7 +59,7 @@ entries:
   nginxService:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-27T17:44:16.920675+05:30"
+    created: "2020-01-29T17:49:21.960397+05:30"
     description: A Helm chart for Kubernetes
     digest: 2e260b3dfe9aa6cc0c2fba662fec9201d224c7ea5ddbfaf3b98952aedbb72159
     name: nginxService
@@ -59,11 +69,11 @@ entries:
   redis:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-01-27T17:44:16.921249+05:30"
+    created: "2020-01-29T17:49:21.960982+05:30"
     description: A Helm chart for Kubernetes
     digest: 0dfcb177583ce87c8bd40f2b3472504aa12813963e5d2dec1f5043c42edfbee1
     name: redis
     urls:
     - https://bitpodio.github.io/helm/redis-0.1.0.tgz
     version: 0.1.0
-generated: "2020-01-27T17:44:16.891832+05:30"
+generated: "2020-01-29T17:49:21.658248+05:30"
