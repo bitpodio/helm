@@ -1,79 +1,13 @@
 apiVersion: v1
 entries:
-  backend:
-  - apiVersion: v1
+  bitpod-backend:
+  - apiVersion: v2
     appVersion: "1.0"
-    created: "2020-01-29T17:49:21.850649+05:30"
+    created: "2020-02-21T17:54:05.039435+05:30"
     description: A Helm chart for Kubernetes
-    digest: a4d4507fb1381323a4faf507947af560d2f9c5f0493a3783e90e9f1b76fafa8b
-    name: backend
+    digest: 1d2b39e2863ddcfabc6384d8357466817fdb1346fd592692e1d361ddce55f30c
+    name: bitpod-backend
     urls:
-    - https://bitpodio.github.io/helm/backend-0.1.0.tgz
+    - https://bitpodio.github.io/helm/bitpod-backend-0.1.0.tgz
     version: 0.1.0
-  bitpod:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2020-01-29T17:49:21.869137+05:30"
-    description: A Helm chart for Kubernetes
-    digest: d54c7eeb3c0a16ade95b58bc50e2cbda9bf7a1cb0323477e7f06b59945b91f2e
-    name: bitpod
-    urls:
-    - https://bitpodio.github.io/helm/bitpod-0.1.0.tgz
-    version: 0.1.0
-  configServer:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2020-01-29T17:49:21.932363+05:30"
-    description: A Helm chart for Kubernetes
-    digest: 14773a05481b9794a9d8c86bd4d61e6a110aaf31171b5444e7a37b0ad3465a12
-    name: configServer
-    urls:
-    - https://bitpodio.github.io/helm/configServer-0.1.0.tgz
-    version: 0.1.0
-  mongodb:
-  - appVersion: 4.0.6
-    created: "2020-01-29T17:49:21.939309+05:30"
-    description: NoSQL document-oriented database that stores JSON-like documents
-      with dynamic schemas, simplifying the integration of data in content-driven
-      applications.
-    digest: 29bb50beb3f8fcdff97a9bd531fd37c4ebe6cf212406d28fe00a362940e619ed
-    engine: gotpl
-    home: https://mongodb.org
-    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
-    keywords:
-    - mongodb
-    - database
-    - nosql
-    - cluster
-    - replicaset
-    - replication
-    maintainers:
-    - email: containers@bitnami.com
-      name: Bitnami
-    name: mongodb
-    sources:
-    - https://github.com/bitnami/bitnami-docker-mongodb
-    urls:
-    - https://bitpodio.github.io/helm/mongodb-5.4.0.tgz
-    version: 5.4.0
-  nginxService:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2020-01-29T17:49:21.960397+05:30"
-    description: A Helm chart for Kubernetes
-    digest: 2e260b3dfe9aa6cc0c2fba662fec9201d224c7ea5ddbfaf3b98952aedbb72159
-    name: nginxService
-    urls:
-    - https://bitpodio.github.io/helm/nginxService-0.1.0.tgz
-    version: 0.1.0
-  redis:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2020-01-29T17:49:21.960982+05:30"
-    description: A Helm chart for Kubernetes
-    digest: 0dfcb177583ce87c8bd40f2b3472504aa12813963e5d2dec1f5043c42edfbee1
-    name: redis
-    urls:
-    - https://bitpodio.github.io/helm/redis-0.1.0.tgz
-    version: 0.1.0
-generated: "2020-01-29T17:49:21.658248+05:30"
+generated: "2020-02-21T17:54:05.012323+05:30"
