@@ -3,11 +3,11 @@ entries:
   bitpod-backend:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2020-03-04T14:39:48.977388+05:30"
+    created: "2020-03-05T15:12:56.915332+05:30"
     description: A Helm chart for Kubernetes
-    digest: 482d45153f26b59beab9a301b7f05adde587d6e25e483562c0699ef6d3014e7d
+    digest: 0cefc6e78b088a925e7acb68c96657cc838d04095a6f20e964b0557fe0b32eab
     name: bitpod-backend
     urls:
     - https://bitpodio.github.io/helm/bitpod-backend-0.1.0.tgz
     version: 0.1.0
-generated: "2020-03-04T14:39:48.942867+05:30"
+generated: "2020-03-05T15:12:56.913921+05:30"
